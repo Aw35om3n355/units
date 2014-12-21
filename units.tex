@@ -1,0 +1,45 @@
+\documentclass[dutch]{report}
+\usepackage[a4paper,text={20cm,28cm},centering]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{amsmath, mathtools}
+
+\setlength{\tabcolsep}{10pt}
+\renewcommand{\arraystretch}{2.5}
+
+\newcommand{\note}[1]{\textcolor{gray}{\tiny (#1)}}
+
+\begin{document}
+\centering
+{\rowcolors{3}{gray!10}{white}
+    \begin{tabular}{ l | l l l l}
+        \hline
+        \multicolumn{5}{c}{\huge{Waarden en constanten}} \\
+        \hline
+        Naam & symbool & waarde & eenheid (SI) & alternatieve eenheid \\
+        \hline
+        elementaire lading & $e$ & $1.60217\cdot 10^{-19}$ & C \note{Coulomb} & $4.803205$ Fr 
+        \note{franklins}\\
+        Gravietatieconstante & $G$ & $6.67259\cdot 10^{-11}$ & $\frac{\text{m}^3}{\text{kg s}^2} =
+        \frac{\text{N m}^2}{\text{kg}^2}$ & \\
+        constante van Planck & $h$ & $6.62607\cdot 10^{-34}$ & Js = $\frac{\text{kg m}^2}{s}$ &
+        $4.13566\cdot10^{-15}eV/s$ \\
+        Constante van Dirac & $\hbar=h/2\pi$ & $1,0545727\cdot10^{-34}$ & Js & \\
+        lichtsnelheid in vacu\"um & $c$ & $2.99792\cdot10^8$ & m/s & $6.706\cdot10^8$ mph\\ 
+        permittiviteit van het vacu\"um & $\epsilon_0$ & $8.85418\cdot10^{-12}$ & F/m
+        \note{Farad per meter} & \\
+        permeabiliteit van het vacu\"um & $\mu_0$ & $4\pi\cdot10{-7}$ & H/m \note{Hanry per meter} &
+        \\
+        fijnstructuurconstante & $\alpha = \frac{e^2}{2hc\epsilon_0}$ & $\approx 1/137$ & & \\ %TODO
+        Bohrmagneton & $\mu_{B}=e\hbar/2m_{e}$ & $9,2741\cdot10^{-24}$ & Am$^2$ & \\
+        Bohrstraal & $a_0$ & $0,52918$ & & \\
+        Rydbergconstante & $Ry$ & 13,595 & eV & \\
+        Comptongolflengte elektron & $\lambda_{Ce}=h/m_{e} c$ & $2,2463\cdot10^{-12}$
+        & m & \\
+        Comptongolflengte proton & $\lambda_{Cp}=h/m_{p}c$ & $1,3214\cdot10^{-15}$
+        & m & \\
+        Gereduceerde massa H-atoom & $\mu_{H}$ & $9,10457\cdot10^{-31}$ & kg & \\
+        \hline
+    \end{tabular}
+}
+
+\end{document}
