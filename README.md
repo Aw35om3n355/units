@@ -1,5 +1,6 @@
 # Allemaal handige constanten
 
 #### Todo
-- [ ] Planeten
+- [x] Planeten
 - [ ] Wiskundige links
+- [ ] Speciale gevallen
